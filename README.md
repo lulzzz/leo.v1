@@ -17,6 +17,7 @@ Leo is a personal finance app I use in spare time to expirement with new technol
  - Virtual Actors
  - Domain Driven Design (DDD)
  - Multi-Region Active/Active (Facilitated primarily by Orleans)
+ - Microservices
 
 ## Third-Party Integrations
  - [Plaid](https://plaid.com/) - Enables access to bank account transactions
