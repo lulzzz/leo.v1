@@ -1,0 +1,23 @@
+board{
+    .card-deck-flex{
+        font-size: .85rem;
+        .card{
+            min-width: 210px;
+            margin-bottom: 1rem;
+            margin-right: .75rem;
+            .badge{
+                margin-right: .25rem;
+            }
+            .card-title.display-4{
+                font-size:2rem;
+            }
+            .card-block{
+                padding: .65rem;
+            }
+        }
+    }
+    
+    .money-negative{
+        color: red;
+    }
+}

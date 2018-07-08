@@ -1,0 +1,13 @@
+# built site #
+##############
+/dist
+
+# Packages #
+############
+/node_modules
+
+# IDE Files #
+/.vscode
+
+# NPM LOGS #
+/npm-debug.log.*

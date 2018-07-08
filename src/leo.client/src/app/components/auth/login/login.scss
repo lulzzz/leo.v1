@@ -1,0 +1,17 @@
+input#google-signin{
+    background:url(images/google-sign-in/2x/btn_google_signin_light_normal_web@2x.png);
+    background-repeat: no-repeat;
+    width:382px;
+    height:92px;
+    border: 0;
+
+    &:active{
+        background:url(images/google-sign-in/2x/btn_google_signin_light_pressed_web@2x.png);
+    }
+    &:hover{
+        background:url(images/google-sign-in/2x/btn_google_signin_light_focus_web@2x.png);
+    }
+    &:disabled{
+        background:url(images/google-sign-in/2x/btn_google_signin_light_disabled_web@2x.png);
+    }
+}

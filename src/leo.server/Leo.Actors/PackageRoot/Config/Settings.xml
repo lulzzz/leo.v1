@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Section Name="plaid">
+    <Parameter Name="url" Value="https://development.plaid.com" />
+    <Parameter Name="clientid" Value="5664ad3d795b36cc730ba675" />
+    <Parameter Name="clientsecret" Value="51708cf6bd2d4c942b0b5e517606f8" />
+  </Section>
+  <Section Name="transactions.webhook">
+    <Parameter Name="url" Value="http://20cee967.ngrok.io/api/boards/{boardid}/webhook" />
+  </Section>
+</Settings>

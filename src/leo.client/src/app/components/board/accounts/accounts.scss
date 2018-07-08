@@ -1,0 +1,20 @@
+accounts{
+    
+    table.table-sm {
+        thead th, thead td, tfoot th, tfoot td{
+            font-size: .9rem;
+            padding: .5rem;
+            &.money{
+                font-weight: 500;
+            }
+        }
+        
+        tbody td{
+            font-size: .8rem;
+            padding: .45rem;
+            &.money{
+                white-space: pre;
+            }
+        }
+    }
+}

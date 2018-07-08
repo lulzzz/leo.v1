@@ -1,0 +1,19 @@
+<div class="card-columns col-md-12 pt-3">
+    <div class="card" ng-repeat="board in $ctrl.boards">
+        <div class="card-header">
+            <a ui-sref="board({ boardId : board.id })">{{board.name}}</a>
+            <span class="justify-content-end">
+                {{board.userIds.length > 1 ? board.userIds.length + ' users' : ''}}
+            </span>
+        </div>
+        <div class="card-block">
+            
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">Add board</div>
+        <div class="card-block">
+            <board-new on-add="$ctrl.onAddBoard(board)"></board-new>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="card-block">
+    <a ng-click="$ctrl.addAccounts()" href="#">Add Accounts</a>
+</div>
+
+<table class="table table-sm table-striped" ng-repeat="group in $ctrl.groups">
+    <thead>
+        <th class="text-capitalize">{{group.name}}</th>
+        <th class="money text-right">{{group.total | currency}}</td>
+    </thead>
+    <tbody>
+        <tr class="" ng-repeat="account in group.accounts">
+            <td>{{account.accountName}}</td>
+            <td class="money text-right">{{account.current | currency}}</td>
+        </tr>
+    </tbody>
+</table>

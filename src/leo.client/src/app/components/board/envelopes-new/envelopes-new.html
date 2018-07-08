@@ -1,0 +1,14 @@
+<h1>Create Envelope</h1>
+<form>
+    <div class="form-group">
+        <label for="envelope-new-name">Name</label>
+        <input type="text" class="form-control" id="envelope-new-name" placeholder="Enter name" ng-model="$ctrl.envelope.name">
+    </div>
+    <div class="form-group">
+        <label for="envelope-new-categories">Categories</label>
+        <tags-input ng-model="$ctrl.envelope.categories" id="envelope-new-categories" placeholder="Add categories">
+            <auto-complete source="$ctrl.searchCategories($query)" debounce-delay="400"></auto-complete>
+        </tags-input>
+    </div>
+    <button type="submit" class="btn btn-primary" ng-click="$ctrl.add($ctrl.envelope)">Create</button>
+</form>
